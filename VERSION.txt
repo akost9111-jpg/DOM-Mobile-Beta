@@ -1,0 +1,2 @@
+DOM Messenger 1.3.0
+Windows desktop build with local accounts, channels, message editing/deletion and logout.

@@ -1,0 +1,32 @@
+
+DOM MESSENGER — ONE-CLICK WINDOWS INSTALLER
+
+Что получится:
+  dist\DOM-Messenger-Setup.exe
+
+После запуска Setup:
+  • фирменный экран DOM;
+  • установка DOM Messenger;
+  • ярлык в меню Пуск;
+  • опциональный ярлык на рабочем столе;
+  • опция «Запускать DOM вместе с Windows»;
+  • на последнем шаге DOM запускается автоматически.
+
+Требования на Windows:
+  1. Flutter SDK с Windows Desktop.
+  2. Visual Studio с workload "Desktop development with C++".
+  3. Inno Setup 6 (ISCC.exe доступен в PATH).
+
+Самый простой запуск:
+  Дважды кликнуть BUILD-DOM.bat
+
+Скрипт сам:
+  • проверит Flutter;
+  • создаст Windows-платформу Flutter;
+  • установит зависимости;
+  • соберёт Release;
+  • создаст DOM-Messenger-Setup.exe.
+
+Примечание:
+  Сам бинарный .exe установщика нельзя корректно скомпилировать в этой среде без Windows.
+  Этот комплект предназначен для запуска на Windows и автоматизирует всю сборку.
